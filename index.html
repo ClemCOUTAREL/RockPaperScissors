@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,paper,scissor time</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+          <h2 class="result" id="result">Waiting the game</h2>
+    <div class="container">
+      <h1>It's Rock, Paper, Scissors Time !!!</h1>
+      <div class="players-score">
+        <div id="player-score">
+          <h2>Player</h2>
+          <h2 id="player-count">0</h2>
+        </div>
+        <div id="computer-score">
+          <h2>Computer</h2>
+          <h2 id="computer-count">0</h2>
+        </div>
+      </div>
+      <main>
+        <div class="player-move">
+          <div class="logo">
+            <img
+              id="player-logo"
+              src="./images/rock.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+            />
+          </div>
+          <div class="choice" id="player-choice">
+            <button class="choice-btn" id="player-btn">Rock</button>
+          </div>
+        </div>
+        <div class="main-btns">
+        <div class="start-game">
+          <button id="start-btn">Start</button>
+        </div>
+        <div class="reset">
+            <button id="reset-btn">Reset the game</button>
+        </div>
+        </div>
+        <div class="computer-move">
+          <div class="logo">
+            <img
+              id="computer-logo"
+              src="./images/rock.jpg"
+              alt=""
+              width="200px"
+              height="200px"
+            />
+          </div>
+          <div class="choice" id="computer-choice">
+            <button class="choice-btn" id="computer-btn">Rock</button>
+          </div>
+        </div>
+        <div class="result"></div>
+      </main>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
